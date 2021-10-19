@@ -1,12 +1,13 @@
 package data_test
 
 import (
-	"gitlab.com/steve-perkins/ResumeFodder/data"
-	"gitlab.com/steve-perkins/ResumeFodder/testutils"
 	"os"
 	"path/filepath"
 	"reflect"
 	"testing"
+
+	"github.com/andrzejressel/ResumeFodder/data"
+	"github.com/andrzejressel/ResumeFodder/testutils"
 )
 
 func TestXmlConversion(t *testing.T) {

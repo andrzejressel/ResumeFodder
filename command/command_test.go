@@ -1,13 +1,14 @@
 package command_test
 
 import (
-	"gitlab.com/steve-perkins/ResumeFodder/command"
-	"gitlab.com/steve-perkins/ResumeFodder/data"
-	"gitlab.com/steve-perkins/ResumeFodder/testutils"
 	"os"
 	"path/filepath"
 	"reflect"
 	"testing"
+
+	"github.com/andrzejressel/ResumeFodder/command"
+	"github.com/andrzejressel/ResumeFodder/data"
+	"github.com/andrzejressel/ResumeFodder/testutils"
 )
 
 func TestInitResumeFile(t *testing.T) {

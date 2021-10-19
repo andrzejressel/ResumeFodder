@@ -1,9 +1,10 @@
 package testutils
 
 import (
-	"gitlab.com/steve-perkins/ResumeFodder/data"
 	"os"
 	"testing"
+
+	"github.com/andrzejressel/ResumeFodder/data"
 )
 
 // A helper function to generate fake `ResumeData` structs, for use by the various test functions.

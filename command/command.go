@@ -4,7 +4,6 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"gitlab.com/steve-perkins/ResumeFodder/data"
 	"io/ioutil"
 	"os"
 	"path"
@@ -12,6 +11,8 @@ import (
 	"strings"
 	"text/template"
 	"time"
+
+	"github.com/andrzejressel/ResumeFodder/data"
 )
 
 // InitResume writes a new, empty resume data file to the destination specified by the filename argument.  That
