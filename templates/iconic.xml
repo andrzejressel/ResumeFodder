@@ -2079,9 +2079,9 @@
 							<w:r wsp:rsidRPr="00235936">
 								<w:t>{{ html .Position }}</w:t>
 							</w:r>
-							{{ if .Company }}
+							{{ if .Name }}
 							<w:r wsp:rsidRPr="00235936">
-								<w:t>, {{ html .Company }}</w:t>
+								<w:t>, {{ html .Name }}</w:t>
 							</w:r>
 							{{ end }}
 							{{ if .StartDate }}

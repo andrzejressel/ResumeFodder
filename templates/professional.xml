@@ -4997,7 +4997,7 @@
 									<w:sz w:val="20"/>
 									<w:sz-cs w:val="20"/>
 								</w:rPr>
-								<w:t>{{ html .Company }}</w:t>
+								<w:t>{{ html .Name }}</w:t>
 							</w:r>
 							<!-- TODO: ResumeFodder needs extension fields for per-job City and Region before this can be added -->
 							<!--<w:r wsp:rsidRPr="0017303A">-->

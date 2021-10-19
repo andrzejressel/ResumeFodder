@@ -1139,7 +1139,7 @@
 							</w:pPr>
 							<w:proofErr w:type="spellStart"/>
 							<w:r wsp:rsidRPr="00826FD0">
-								<w:t>{{ html .Company }}</w:t>
+								<w:t>{{ html .Name }}</w:t>
 							</w:r>
 							<w:proofErr w:type="spellEnd"/>
 							<w:r wsp:rsidRPr="00826FD0">

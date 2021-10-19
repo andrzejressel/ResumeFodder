@@ -30,9 +30,9 @@
   "workLabel": "Professional Experience",
   "work": [
     {
-      "company": "Magazine Clearinghouse",
+      "name": "Magazine Clearinghouse",
       "position": "Door-to-Door Salesperson",
-      "website": "",
+      "url": "",
       "startDate": "2002-05-01",
       "endDate": "",
       "summary": "Magazine Clearinghouse is the nation's leader in door-to-door magazine sales.  Provides opportunities to people who used to be addicted to crack, etc.",
@@ -42,9 +42,9 @@
       ]
     },
     {
-      "company": "Initech",
+      "name": "Initech",
       "position": "Software Development Manager",
-      "website": "",
+      "url": "",
       "startDate": "1998-02-01",
       "endDate": "2002-05-01",
       "summary": "Initech is an innovative financial services firm, and TPS Report processor.  However, we also know how to relax and have fun, such as with our Hawaiian Shirt Fridays program.",
@@ -54,9 +54,9 @@
       ]
     },
     {
-      "company": "Initrode",
+      "name": "Initrode",
       "position": "Software Developer",
-      "website": "",
+      "url": "",
       "startDate": "1996-02-01",
       "endDate": "1998-02-01",
       "summary": "Ehh... it's work.",

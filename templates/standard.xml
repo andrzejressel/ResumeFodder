@@ -2921,7 +2921,7 @@
 								<w:t>, </w:t>
 							</w:r>
 							<w:r wsp:rsidR="00DF6AD6" wsp:rsidRPr="00DF6AD6">
-								<w:t>{{ html .Company }}{{ if .StartDate }}, {{ html .StartDate | MYYYY }} - {{ end }}</w:t>
+								<w:t>{{ html .Name }}{{ if .StartDate }}, {{ html .StartDate | MYYYY }} - {{ end }}</w:t>
 							</w:r>
 							<w:r>
 								<w:t>{{ if .EndDate }}{{ html .EndDate | MYYYY }}{{ else }}Present{{ end }}</w:t>

@@ -102,9 +102,9 @@ type SocialProfile struct {
 
 type Work struct {
 	// TODO: Perhaps job listings should have 'City' and 'Region' extension fields, as this is commonly found on resumes
-	Company    string   `xml:"company" json:"company"`
+	Name       string   `xml:"name" json:"name"`
 	Position   string   `xml:"position" json:"position"`
-	Website    string   `xml:"website" json:"website"`
+	Url        string   `xml:"url" json:"url"`
 	StartDate  string   `xml:"startDate" json:"startDate"`
 	EndDate    string   `xml:"endDate" json:"endDate"`
 	Summary    string   `xml:"summary" json:"summary"`

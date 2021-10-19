@@ -36,7 +36,7 @@ func GenerateTestResumeData() data.ResumeData {
 		},
 		Work: []data.Work{
 			{
-				Company:   "Initech",
+				Name:      "Initech",
 				Position:  "Software Developer",
 				StartDate: "1998-02-01",
 				Summary:   "Deals with the customers so the engineers don't have to.  A people person, damn it!",
@@ -49,7 +49,7 @@ func GenerateTestResumeData() data.ResumeData {
 		WorkLabel: "Professional Experience",
 		AdditionalWork: []data.Work{
 			{
-				Company:   "Flingers",
+				Name:      "Flingers",
 				Position:  "Burger Flipper",
 				StartDate: "1993-08-01",
 				EndDate:   "1998-01-31",
