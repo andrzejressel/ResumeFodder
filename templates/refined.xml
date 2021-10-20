@@ -1224,7 +1224,7 @@
 								<w:spacing w:line="240" w:line-rule="auto"/>
 							</w:pPr>
 							<w:r wsp:rsidRPr="00826FD0">
-								<w:t>{{ .Company }}</w:t>
+								<w:t>{{ .Name }}</w:t>
 							</w:r>
 							{{ if .Position }}
 							<w:r wsp:rsidRPr="00826FD0">

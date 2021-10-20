@@ -91,13 +91,13 @@ func ExportResumeFile(inputFilename, outputFilename, templateFilename string) er
 		err = errors.New("Resume filename must end with \".xml\" or \".json\".")
 	}
 	if err != nil {
-		return nil
+		return err
 	}
 
 	// Execute the template engine
 	buffer, err := ExportResume(resumeData, templateString)
 	if err != nil {
-		return nil
+		return err
 	}
 
 	// Open the output file and write out the resume contents
